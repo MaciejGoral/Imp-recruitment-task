@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 n=int(input())
 m=[int(x) for x in input().split()]
 a=[int(x) for x in input().split()]
