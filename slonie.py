@@ -1,10 +1,7 @@
-import sys
-
-f = open(sys.argv[1], "r")
-n=int(f.readline())
-m=[int(x) for x in f.readline().split()]
-a=[int(x) for x in f.readline().split()]
-b=[int(x) for x in f.readline().split()]
+n=int(input())
+m=[int(x) for x in input().split()]
+a=[int(x) for x in input().split()]
+b=[int(x) for x in input().split()]
 p=[0]*(n+1);
 odw= [False] * (n + 1)
 minweight=min(m)
